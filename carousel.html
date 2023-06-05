@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>carousel</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+    <div class="container">
+        <h1 class="mb-3 text-center">Produtos Disponíveis: </h1>
+       
+        <div class="carousel slide" id="carouselExample"data-bs-ride="carousel" >
+            
+            <div class="carousel-inner">
+                <div class="carousel-item active col-md-4 carousel-fade " data-bs-interval="3000"  >
+                    <img src="img/relogio.jpg" class="img-fluid mx-auto h-50 d-block custom-image" alt="Imagem de um relogio" srcset="">
+                </div>
+                <div class="carousel-item col-md-4 carousel-fade " data-bs-interval="3000"  >
+                    <img src="img/samsung.png" class="img-fluid mx-auto h-50 d-block custom-image" alt="Imagem de um samsung" srcset="">
+                </div>
+                <div  class="carousel-item col-md-4 carousel-fade " data-bs-interval="3000"  >
+                    <img src="img/tablet.png" class="img-fluid mx-auto h-50 d-block custom-image" alt="Imagem de um tablet" srcset="">
+                </div>
+                
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    
+    <!-- Layout com grid -->
+        <div class="row mt-4">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card item">
+                        <div class="card-body">
+                        <h5 class="card-title">Smartwhatch </h5>
+                        <p class="card-text">Smartwhatch original da samsung, lançado em 2021 com o valor de <strong> $3.000,00 </strong></p>
+                        <p class="card-text">Avaliação: 4.5/5</p>
+                        <p class="card-text">Compatibilidade: <i class="bi bi-check"></i> iOS, <i class="bi bi-check"></i> Android</p>
+                        <button class="btn btn-primary">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+            </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card item">
+                        <div class="card-body">
+                            <h5 class="card-title">Samung S23 Ultra</h5>
+                            <p class="card-text">Ultimo lançamento da samsung, o mais moderno da marca, com o valor de <strong> $5.000,00 </strong></p>
+                            <p class="card-text">Avaliação: 4.2/5</p>
+                            <p class="card-text">Compatibilidade:  <i class="bi bi-check"></i> Android</p>
+                            <button class="btn btn-primary">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card item">
+                        <div class="card-body">
+                            <h5 class="card-title">Tablet</h5>
+                            <p class="card-text">Um tablet com todas as principais funcionalidades da samsung útil para seu dia a dia, com o valor de <strong> $2.000,00 </strong></p>
+                            <p class="card-text">Avaliação: 4.8/5</p>
+                            <p class="card-text">Compatibilidade: <i class="bi bi-check"></i> iOS, <i class="bi bi-check"></i> Android</p>
+                            <button class="btn btn-primary">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+<script src="lib/bootstrap.min.js"></script>
+</body>
+</html>

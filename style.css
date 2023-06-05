@@ -1,0 +1,17 @@
+
+    .custom-image{
+        width: 500px;
+        height: 0 auto;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: rgba(0, 0, 0, 0.5);
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
